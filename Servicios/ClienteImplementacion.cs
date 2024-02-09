@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace Ejercicio2O.Servicios
 {
+    /// <summary>
+    /// Clase que implementa la interfaz del cliente.
+    /// CSL - 080224
+    /// </summary>
     internal class ClienteImplementacion : ClienteInterfaz
     {
 
@@ -17,6 +21,11 @@ namespace Ejercicio2O.Servicios
             Console.WriteLine(listaAntigua.ToString());
         }
 
+        /// <summary>
+        /// Metodo que crea un nuevo Cliente.
+        /// CSL - 080224
+        /// </summary>
+        /// <returns></returns>
         private ClienteDto crearNuevoCliente()
         {
             ClienteDto nuevoCliente = new ClienteDto();            
@@ -43,6 +52,11 @@ namespace Ejercicio2O.Servicios
             return nuevoCliente;
         }
 
+        /// <summary>
+        /// Metodo que ordena los clientes segun los años de experiencia trabajados.
+        /// CSL - 080224
+        /// </summary>
+        /// <param name="listaAntigua"></param>
         public void ordenarCliente(List<ClienteDto> listaAntigua)
         {
             ClienteDto temp;

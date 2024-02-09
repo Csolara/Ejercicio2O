@@ -3,8 +3,17 @@ using Ejercicio2O.Servicios;
 
 namespace Ejercicio2O.Controladores
 {
+    /// <summary>
+    /// Clase principal de la aplicacion.
+    /// CSL - 080224
+    /// </summary>
     class program
     {
+        /// <summary>
+        /// metodo principal de la aplicacion.
+        /// CSL - 080224
+        /// </summary>
+        /// <param name="args"></param>
         public static void Main(string[] args)
         {
 

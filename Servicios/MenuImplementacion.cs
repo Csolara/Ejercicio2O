@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ejercicio2O.Servicios
 {
+    /// <summary>
+    /// Clase que implementa la interfaz de la aplicacion.
+    /// CSL - 080224
+    /// </summary>
     internal class MenuImplementacion : MenuInterfaz
     {
 
